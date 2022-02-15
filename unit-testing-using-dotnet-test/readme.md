@@ -14,3 +14,9 @@ Omnisharp - missing intelisense import namespaces
 ```
 https://stackoverflow.com/questions/53964079/intellisense-for-available-using-imports-in-c-sharp-with-visual-studio-code
 ```
+
+Xunit - Shared Context - fixtures
+
+```
+https://xunit.net/docs/shared-context
+```
