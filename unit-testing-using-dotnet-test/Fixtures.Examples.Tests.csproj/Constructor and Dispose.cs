@@ -35,4 +35,31 @@ public class StackTests : IDisposable
 
         Assert.Equal(1, count);
     }
+
+//////////////// "test class as context" pattern,
+
+    public class EmptyStack
+    {
+        readonly Stack<int> stack;
+
+        public EmptyStack()
+        {
+            stack = new Stack<int>();
+        }
+
+        // ... tests for an empty stack ...
+    }
+
+    public class SingleItemStack
+    {
+        readonly Stack<int> stack;
+
+        public SingleItemStack()
+        {
+            stack = new Stack<int>();
+            stack.Push(42);
+        }
+
+        // ... tests for a single-item stack ...
+    }
 }
