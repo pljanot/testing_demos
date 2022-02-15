@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService", "PrimeServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeService.Tests", "PrimeService.Tests\PrimeService.Tests.csproj", "{EF65D2C5-2046-483A-B932-1CB878465B75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixtures.Examples.Tests.csproj", "Fixtures.Examples.Tests.csproj\Fixtures.Examples.Tests.csproj.csproj", "{026A6436-83FF-4C2E-8BEE-79DBEAD0C232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{EF65D2C5-2046-483A-B932-1CB878465B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF65D2C5-2046-483A-B932-1CB878465B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF65D2C5-2046-483A-B932-1CB878465B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026A6436-83FF-4C2E-8BEE-79DBEAD0C232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026A6436-83FF-4C2E-8BEE-79DBEAD0C232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026A6436-83FF-4C2E-8BEE-79DBEAD0C232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026A6436-83FF-4C2E-8BEE-79DBEAD0C232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

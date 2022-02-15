@@ -37,7 +37,7 @@ namespace Prime.UnitTests.Services
         [InlineData(1)]
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
         {
-            var result = _primeService.IsPrime(value);
+            var result =_primeService.IsPrime(value);
 
             Assert.False(result, $"{value} should not be prime");
         }
