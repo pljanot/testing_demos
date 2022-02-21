@@ -1,3 +1,5 @@
+## Xunit in VSC, cmds
+
 Basic commands to control visual studio project
 ```
 dotnet new sln -o unit-testing-using-dotnet-test
@@ -19,4 +21,24 @@ Xunit - Shared Context - fixtures
 
 ```
 https://xunit.net/docs/shared-context
+```
+
+## Mocks 
+
+Links:
+```
+https://nsubstitute.github.io/help/getting-started/
+```
+
+Adding nsubistute - one of most popular mock packages
+```
+dotnet new xunit -o Nsubisute.Mock.Tests
+dotnet sln add ./Nsubisute.Mock.Tests/Nsubisute.Mock.Tests.csproj
+dotnet add Nsubisute.Mock.Tests/Nsubisute.Mock.Tests.csproj package NSubstitute --version 4.3.0
+```
+
+I see a problem after adding Nsubsistute with discovering namespace,
+
+```
+Ctrl Shift + P (command pallete) -> Restart omnisharp [Help out]
 ```
