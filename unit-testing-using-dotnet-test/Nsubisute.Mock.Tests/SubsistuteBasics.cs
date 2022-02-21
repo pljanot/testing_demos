@@ -34,6 +34,8 @@ public class MyCalculator : ICalculator
     }
 }
 
+// Recieved Callcs
+// https://nsubstitute.github.io/help/received-calls/ 
 public class SubsistuteMocks
 {
     [Fact]
